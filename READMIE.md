@@ -25,6 +25,3 @@ Contributions are welcome. If you'd like to improve this project, follow these s
 
 This project is licensed under the MIT License. You can refer to the [LICENSE](LICENSE) file for more details.
 
----
-
-Thank you for your interest in our Awesome project! If you have any questions or suggestions, feel free to get in touch with us.
