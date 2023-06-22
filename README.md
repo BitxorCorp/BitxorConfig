@@ -18,7 +18,6 @@ updatepeers:
 updatevoting:
 `sudo wget https://github.com/BitxorCorp/BitxorConfig/raw/main/updatevoting.sh && sudo chmod +x updatevoting.sh && sudo ./updatevoting.sh`
 
-
 ## Contributing
 
 Contributions are welcome. If you'd like to improve this project, follow these steps:
