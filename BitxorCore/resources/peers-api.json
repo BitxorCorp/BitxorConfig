@@ -1,0 +1,27 @@
+{
+  "_info": "this file contains a list of api peers",
+  "knownPeers": [
+    {
+      "publicKey": "D71147B8C7AADFB3430E8ABF61F0CD7D018876501CF9C8E38A89ED2FEF6ED250",
+      "endpoint": {
+        "host": "genesis.bitxor.org",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "GenesisNode",
+        "roles": "Peer,Api"
+      }
+  },
+  {
+      "publicKey": "8FECBEE951047794BA38080C6760E17AC08F8ECA33B497F6795658C76B011BFD",
+      "endpoint": {
+        "host": "zeus.bxr.sulacoin.com",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "Zeus Sulacoin",
+        "roles": "Peer,Api,Voting"
+      }
+    }
+  ]
+}
