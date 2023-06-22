@@ -9,13 +9,13 @@ This repository will have the configuration needed for BitxorCore and multiples 
 - updatevoting.sh: This will update the voting file resources with the last voting config.
 
 ## Running
-updateproof.sh
+updateproof:
 `sudo wget https://github.com/BitxorCorp/BitxorConfig/raw/main/updateproof.sh && sudo chmod +x updateproof.sh && sudo ./updateproof.sh`
 
-updatepeers.sh
+updatepeers:
 `sudo wget https://github.com/BitxorCorp/BitxorConfig/raw/main/updatepeers.sh && sudo chmod +x updatepeers.sh && sudo ./updatepeers.sh`
 
-updatevoting.sh
+updatevoting:
 `sudo wget https://github.com/BitxorCorp/BitxorConfig/raw/main/updatevoting.sh && sudo chmod +x updatevoting.sh && sudo ./updatevoting.sh`
 
 
