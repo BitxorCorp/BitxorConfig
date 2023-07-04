@@ -7,16 +7,20 @@ This repository will have the configuration needed for BitxorCore and multiples 
 - updateproof.sh: This will update the proof file with the last proof.
 - updatepeers.sh: This will update the peers file with the last peers nodes.
 - updatevoting.sh: This will update the voting file resources with the last voting config.
+- updatevoting.sh: This will restore a dump of all the chain of Bitxor, you need 2 files in your root home: BitxorCoreDBdump.tar.gz and Data.tar.gz.
 
 ## Running
 updateproof:
-`sudo wget https://github.com/BitxorCorp/BitxorConfig/raw/main/updateproof.sh && sudo chmod +x updateproof.sh && sudo ./updateproof.sh`
+`sudo wget -N https://github.com/BitxorCorp/BitxorConfig/raw/main/updateproof.sh && sudo chmod +x updateproof.sh && sudo ./updateproof.sh`
 
 updatepeers:
-`sudo wget https://github.com/BitxorCorp/BitxorConfig/raw/main/updatepeers.sh && sudo chmod +x updatepeers.sh && sudo ./updatepeers.sh`
+`sudo wget -N https://github.com/BitxorCorp/BitxorConfig/raw/main/updatepeers.sh && sudo chmod +x updatepeers.sh && sudo ./updatepeers.sh`
 
 updatevoting:
-`sudo wget https://github.com/BitxorCorp/BitxorConfig/raw/main/updatevoting.sh && sudo chmod +x updatevoting.sh && sudo ./updatevoting.sh`
+`sudo wget -N https://github.com/BitxorCorp/BitxorConfig/raw/main/updatevoting.sh && sudo chmod +x updatevoting.sh && sudo ./updatevoting.sh`
+
+restoredump:
+`sudo wget -N https://github.com/BitxorCorp/BitxorConfig/raw/main/restoredump.sh && sudo chmod +x restoredump.sh && sudo ./restoredump.sh`
 
 ## Contributing
 
