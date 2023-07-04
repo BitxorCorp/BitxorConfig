@@ -7,7 +7,7 @@ This repository will have the configuration needed for BitxorCore and multiples 
 - updateproof.sh: This will update the proof file with the last proof.
 - updatepeers.sh: This will update the peers file with the last peers nodes.
 - updatevoting.sh: This will update the voting file resources with the last voting config.
-- updatevoting.sh: This will restore a dump of all the chain of Bitxor, you need 2 files in your root home: BitxorCoreDBdump.tar.gz and Data.tar.gz.
+- restoredump.sh: This will restore a dump of all the chain of Bitxor, you need 2 files in your root home: BitxorCoreDBdump.tar.gz and Data.tar.gz.
 
 ## Running
 updateproof:
