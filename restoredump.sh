@@ -1,3 +1,4 @@
+#!/bin/bash
 service bitxorcore stop
 service bitxorbroker stop
 service bitxorapi stop
@@ -7,9 +8,7 @@ mv /root/BitxorCore/data/harvesters.dat harvesters.dat
 rm -rf /root/BitxorCore/data
 tar -xzf Data.tar.gz -C /root/BitxorCore/
 mv harvesters.dat /root/BitxorCore/data/harvesters.dat
-echo $'use bitxorcore\ndb.dropDatabase()' | mongo
-echo $'use bitxorcore\ndb.dropDatabase()' | mongo
-echo $'use bitxorcore\ndb.dropDatabase()' | mongo
+mongo --eval 'use bitxorcore; db.dropDatabase();'
 mkdir dbdump
 tar -xzf BitxorCoreDBdump.tar.gz -C dbdump
 mongorestore --db=bitxorcore dbdump/bitxorcore
