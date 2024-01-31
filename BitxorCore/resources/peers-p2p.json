@@ -13,15 +13,26 @@
       }
   },
   {
-      "publicKey": "7B12ED215EDEEAA7281C6DB3C547D517651ED76B8D993BBBB697A9024804084B",
+      "publicKey": "5DA8201A856C0D45C64ABE4D0E5C6F89F869A7A1C45B7C6C72FA0BC341E28F5F",
       "endpoint": {
-        "host": "bitxorgetaways.ying.es",
+        "host": "btk.bitxor.net",
         "port": 7900
       },
       "metadata": {
-        "name": "BitxorGetaways",
+        "name": "Btk",
         "roles": "Peer,Api,Voting"
       }
-    }
+  },
+  {
+      "publicKey": "5B323735A0E9359F0442CC81D020C84C7132F6A8C78DF55078C4D123E27BD1A3",
+      "endpoint": {
+        "host": "for2.pat.knodo.net",
+        "port": 7900
+      },
+      "metadata": {
+        "name": "for2.pat.knodo.net",
+        "roles": "Peer,Api,Voting"
+      }
+  }
   ]
 }
