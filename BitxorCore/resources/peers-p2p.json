@@ -2,35 +2,13 @@
   "_info": "this file contains a list of api peers",
   "knownPeers": [
     {
-      "publicKey": "D71147B8C7AADFB3430E8ABF61F0CD7D018876501CF9C8E38A89ED2FEF6ED250",
+      "publicKey": "CD203D028E680FB5A14559F0A0E4C239F78F34A40C5DFEE289262D25EE8AAD01",
       "endpoint": {
-        "host": "genesis.bitxor.org",
+        "host": "kaneki.bitxor.knodo.net",
         "port": 7900
       },
       "metadata": {
-        "name": "GenesisNode",
-        "roles": "Peer,Api,Voting"
-      }
-  },
-  {
-      "publicKey": "5DA8201A856C0D45C64ABE4D0E5C6F89F869A7A1C45B7C6C72FA0BC341E28F5F",
-      "endpoint": {
-        "host": "btk.bitxor.net",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "Btk",
-        "roles": "Peer,Api,Voting"
-      }
-  },
-  {
-      "publicKey": "5B323735A0E9359F0442CC81D020C84C7132F6A8C78DF55078C4D123E27BD1A3",
-      "endpoint": {
-        "host": "for2.pat.knodo.net",
-        "port": 7900
-      },
-      "metadata": {
-        "name": "for2.pat.knodo.net",
+        "name": "Kaneki",
         "roles": "Peer,Api,Voting"
       }
   }
