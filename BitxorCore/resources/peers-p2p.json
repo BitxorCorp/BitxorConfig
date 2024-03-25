@@ -2,14 +2,14 @@
   "_info": "this file contains a list of api peers",
   "knownPeers": [
     {
-      "publicKey": "CD203D028E680FB5A14559F0A0E4C239F78F34A40C5DFEE289262D25EE8AAD01",
+      "publicKey": "AB9CE5E6C10B5CF40E18C8E4CD1734CCBEC98005D8455EC2BB3F9F80192C2940",
       "endpoint": {
-        "host": "kaneki.bitxor.knodo.net",
+        "host": "genesis.bitxor.org",
         "port": 7900
       },
       "metadata": {
-        "name": "Kaneki",
-        "roles": "Peer,Api,Voting"
+        "name": "Genesis",
+        "roles": "Peer,Api"
       }
   }
   ]
